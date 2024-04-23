@@ -43,7 +43,7 @@
               <img class="masthead-img" src="img/avataaars.svg" alt="Avatar">
            
             <h1>Start Bootstrap</h1>
-            <span class="star my-4"><i class="fa-solid fa-star"></i></span>
+            <span class="star my-4 md-5"><i class="fa-solid fa-star"></i></span>
             <h4 class="mb-5">Graphic Artist - Web Designer - Illustrator</h4>
           </div>
           </div>
@@ -52,48 +52,52 @@
 
 
     <main>
-      <section id="portfolio" class="text-center my-5">
+      <section id="portfolio" class="text-center my-5 py-5">
         <div class="container">
           <h2>Portfolio</h2>
-          <span class="star star-blu my-4"><i class="fa-solid fa-star"></i></span>
-          <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="portfolio-items">
+          <span class="star star-blu my-4 md-5"><i class="fa-solid fa-star"></i></span>
+          <div class="row mt-4">
+          <div class="col-md-6 col-lg-4 mb-5"
+            data-bs-toggle="modal" 
+            data-bs-target="#cabin">
+              <div class="portfolio-items">
               <img src="img/cabin.png" alt="cabin">
               <div class="layover"></div>
               <span>+</span>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 md-5">
             <div class="portfolio-items">
               <img src="img/cake.png" alt="cake">
               <div class="layover"></div>
               <span>+</span>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 md-5"
+          data-bs-toggle="modal" 
+            data-bs-target="#exampleModal">
             <div class="portfolio-items">
               <img src="img/circus.png" alt="circus">
               <div class="layover"></div>
               <span>+</span>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 md-5">
             <div class="portfolio-items">
               <img src="img/game.png" alt="game">
               <div class="layover"></div>
               <span>+</span>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 md-5">
             <div class="portfolio-items">
               <img src="img/safe.png" alt="safe">
               <div class="layover"></div>
               <span>+</span>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 md-5">
             <div class="portfolio-items">
               <img src="img/submarine.png" alt="cake">
               <div class="layover"></div>
@@ -104,10 +108,68 @@
           </div>
         </div>
       </section>
+      <section id="about" class="my-5 py-5 text-white">
+        <div class="container">
+          <div class="text-center">
+          <div><h2 class="text-white">About</h2>
+            <span class="star my-4 md-5"><i class="fa-solid fa-star"></i></span>
+          </div>
+            <div class="row justify-content-center my-5">
+              <div class="col-lg-4 testo">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>            
+            </div>
+            <div class="col-lg-4 testo">
+              <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>            
+            </div>
+            <div class="text-center">
+              <a href="" class="btn btn-lg btn-outline-light"> <i class="fa-solid fa-download"></i>Free download</a>
+              
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
 
     <footer></footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="cabin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h1 class="modal-title fs-5" id="cabin">Log Cabin</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center pb-5">
+      <img class="img-modal" src="img/cabin.png" alt="cabin">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

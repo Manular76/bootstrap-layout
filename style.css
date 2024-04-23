@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat :ital,wght@0,100..900;1,100..900&display=swap');
 
 /* commons*/
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Lato", sans-serif;
@@ -108,8 +111,32 @@ vertical-align: middle;
     color: white;
     font-size: 80px;
     opacity: 0;
+    transition: 0.3s ease;
     }
     .portfolio-items:hover .layover,
     .portfolio-items:hover span {
         opacity: 1;
     }
+    /*about*/
+    
+    #about {
+        background-color: #1abc9c;
+    }
+
+    
+#about .testo{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.btn-lg {
+    margin-top: 30px;
+}
+.btn-lg  i {
+    padding: 10px;
+    font-size: 20px;
+}
+#about .testo p {
+    text-align: left;
+}
