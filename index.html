@@ -50,7 +50,7 @@
           <!--fine Masthead-->
     </header>
 
-
+<!--portfolio-->
     <main>
       <section id="portfolio" class="text-center my-5 py-5">
         <div class="container">
@@ -108,6 +108,7 @@
           </div>
         </div>
       </section>
+    <!--about--> 
       <section id="about" class="my-5 py-5 text-white">
         <div class="container">
           <div class="text-center">
@@ -128,48 +129,77 @@
           </div>
         </div>
       </section>
+
+      <!--contatti-->
+      <section id="contact" class="text-center my-5 py-5">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <span class="star star-blu my-4 md-5"><i class="fa-solid fa-star"></i></span>
+        <form class="row justify-content-center my-5">
+          <div class="col-lg-8 mb-4">
+            <div class="position-relative">
+            <input type="text" class="form-control" id="inputNome" required>
+            <label for="inputNome" class="form-label">Full Name</label>
+            </div>
+            
+          </div>
+          <div class="col-lg-8 mb-4">
+            <div class="position-relative">
+              <input type="email" class="form-control" id="inputEmail" required>
+              <label for="inputEmail" class="form-label">Email Address</label>
+              </div>
+            </div>
+
+          <div class="col-lg-8 mb-4">
+          <div class="position-relative">
+            <input type="tel" class="form-control" id="inputTel" required>
+               <label for="inputTel" class="form-label">Phone Number</label>
+                </div>
+              </div>
+
+          <div class="col-lg-8 mb-4">
+          <div class="position-relative">
+              <textarea class="form-control"  id="inputMessage" cols="30" rows="6"></textarea>
+              <label for="inputMessage" class="form-label">Message</label>
+              </div>
+            </div>
+
+
+          <div class="col-12">
+            <button  type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </section>
     </main>
 
 
     <footer></footer>
 
     <!-- Modal -->
-<div class="modal fade" id="cabin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal fade modal-xl" id="cabin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="cabin">Log Cabin</h1>
+       
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body text-center pb-5">
+        <h2 class="modal-title text-uppercase" id="cabin">Log Cabin</h2>
+        <span class="star star-blu my-4 md-5"><i class="fa-solid fa-star"></i></span>
       <img class="img-modal" src="img/cabin.png" alt="cabin">
       </div>
+      <div>
+       <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+       
       </div>
     </div>
   </div>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 
